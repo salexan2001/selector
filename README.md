@@ -7,7 +7,7 @@ I needed a replacement for dmenu on Gnome and decided to go for a solution havin
 # Usage
 
 ```bash
-echo -n "Option 1\nOption 2\nOption 3" | ./selector.py
+echo -e "Option 1\nOption 2\nOption 3" | ./selector.py
 ```
 
 - Pressing ENTER (or the OK button) prints the selected entry to STDOUT (or the first shown entry if nothing is selected).
