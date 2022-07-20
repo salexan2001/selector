@@ -102,6 +102,10 @@ class Application(object):
         (model, node) = self.tree.get_selection().get_selected()
         self.selected = model.get_value(node, 0)
 
-
-if __name__ == "__main__":
+        
+def main():
     Application()
+
+    
+if __name__ == "__main__":
+    main()
